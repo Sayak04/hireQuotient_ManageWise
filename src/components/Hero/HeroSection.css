@@ -1,0 +1,422 @@
+.hero-container {
+  background: linear-gradient(
+    180deg,
+    rgba(253, 242, 236, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  width: 100%;
+  height: min-content;
+  padding: 5.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.top-manage-wise {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  gap: 6px;
+  padding: 4px 10px;
+  position: relative;
+  background-color: #fff;
+  border: 1px solid rgba(130, 71, 255, 0.2);
+  border-radius: 8px;
+  width: 13.8rem;
+  height: 1.6rem;
+}
+.text-manage {
+  font-family: Outfit, sans-serif;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.07rem;
+  color: rgb(130, 71, 255);
+}
+.hero-heading {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  outline: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  transform: none;
+  width: 100%;
+}
+.heading {
+  font-size: 85px;
+  font-family: "Outfit", sans-serif;
+  letter-spacing: -2px;
+  line-height: 4.6rem;
+  text-align: center;
+  color: rgb(28, 28, 28);
+}
+.highlight-hero-text {
+  font-size: 85px;
+  color: rgb(254, 129, 98);
+}
+.hero-paragraph {
+  outline: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  opacity: 1;
+  transform: perspective(1200px);
+  max-width: 700px;
+  padding-top: 1rem;
+  overflow: visible;
+  white-space: pre-wrap;
+  width: 60%;
+  word-break: break-word;
+  word-wrap: break-word;
+  z-index: 3;
+}
+.paragraph {
+  font-family: "Inter", sans-serif;
+  font-size: 1.1rem;
+  letter-spacing: 0.4px;
+  line-height: 1.5rem;
+  text-align: center;
+  color: rgb(118, 117, 117);
+  font-weight: 500;
+}
+.btn-container {
+  padding: 1rem 0 1rem 0;
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+.primary-button-container {
+  height: 3.1rem;
+  width: 11.73rem;
+}
+
+.primary-blue-btn {
+  padding: 5px;
+  position: relative;
+  width: 7.2em;
+  height: 2em;
+  transition: 0.2s;
+  height: 100%;
+  width: 100%;
+  font-family: "Outfit", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.1rem;
+  background-color: rgb(130, 71, 255);
+  color: #fff;
+  border-radius: 18px;
+  border: none;
+}
+
+.primary-blue-btn p {
+  font-size: 20px;
+  position: absolute;
+  top: 0.9rem;
+  left: 2.8rem;
+  margin: 0;
+  padding: 0;
+  transition: 0.2s;
+  color: #fff;
+}
+
+.primary-blue-btn svg {
+  position: absolute;
+  top: 0.9em;
+  right: 1.8em;
+  margin: 0;
+  padding: 0;
+  opacity: 0;
+  transition: 0.2s;
+  height: 1.5rem;
+  fill: #fff;
+}
+
+.primary-blue-btn:hover p {
+  left: 2em;
+  color: #fff;
+}
+
+.primary-blue-btn:hover svg {
+  opacity: 1;
+}
+
+.primary-blue-btn:hover {
+  cursor: pointer;
+  box-shadow: rgba(130, 71, 255, 0.2) 0px 0px 0px 8px;
+}
+
+.secondary-btn {
+  width: 11.73rem;
+  height: 3.1rem;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.secondary-btn p {
+  font-size: 20px;
+}
+
+.dashboard-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  gap: 10px;
+  height: 46rem;
+  justify-content: center;
+  overflow: hidden;
+  padding-top: 60px;
+  box-shadow: 0 0.6021873017743928px 0.36131238106463576px -0.9166666666666666px
+      #fafcff14,
+    0 2.288533303243457px 1.3731199819460744px -1.8333333333333333px #fafcff14,
+    0 10px 6.000000000000001px -2.75px #fafcff11, 0 34px 30px -16px #e3e7ed;
+  border-radius: 20px;
+}
+
+.dashboard-img {
+  border-radius: 20px;
+  height: 100%;
+  width: 100%;
+}
+.features-container {
+  padding: 150px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.premier-features {
+  width: 10rem;
+}
+.feature-heading {
+  font-size: 56px;
+  font-family: "Outfit", sans-serif;
+  letter-spacing: -1px;
+  line-height: 1em;
+}
+.highlight-feature-text {
+  font-size: 56px;
+  color: rgb(254, 129, 98);
+}
+.big-cards {
+  margin-top: 80px;
+  display: flex;
+  align-items: flex-start;
+  flex: none;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 40px;
+  height: min-content;
+  justify-content: center;
+  overflow: visible;
+  padding: 0;
+  position: relative;
+  max-width: 1200px;
+  width: 100%;
+}
+.left-card {
+  padding: 78px 40px 35px 40px;
+  height: auto;
+  border-radius: 20px;
+  width: 33rem;
+  height: 25rem;
+  background-color: #ededfa;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.star-container {
+  background-color: #fff;
+  border-radius: 20px;
+  height: 50px;
+  width: 50px;
+  padding: 9px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.star {
+  font-size: 26px;
+  line-height: 1.2em;
+}
+.big-card-text {
+  font-size: 42px;
+  font-family: "Outfit", sans-serif;
+  letter-spacing: -1px;
+  line-height: 1.3em;
+  color: rgb(28, 28, 28);
+}
+.right-card {
+  width: 35rem;
+  height: 25rem;
+  border: 1px solid #ededfa;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.big-card-img {
+  width: 100%;
+}
+.right-card-bottom-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  height: min-content;
+  justify-content: flex-end;
+  padding: 30px;
+}
+.right-card-heading {
+  color: rgb(28, 28, 28);
+  font-family: "Outfit", sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 1.3em;
+  letter-spacing: -0.5px;
+}
+.right-card-p {
+  color: rgb(118, 117, 117);
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.3em;
+  letter-spacing: -0.5px;
+}
+.small-cards {
+  margin-top: 70px;
+  display: grid;
+  flex: none;
+  gap: 40px;
+  grid-auto-rows: minmax(0, 1fr);
+  grid-template-columns: repeat(3, minmax(200px, 1fr));
+  grid-template-rows: repeat(1, minmax(0, 1fr));
+  height: min-content;
+  justify-content: center;
+  overflow: visible;
+  padding: 0;
+  position: relative;
+  width: 100%;
+}
+.three-card {
+  border: 1px solid #ededfa;
+  border-radius: 30px;
+}
+.features-section2 {
+  background-color: rgb(28, 28, 28);
+  display: flex;
+  flex: none;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  gap: 20px;
+  height: min-content;
+  justify-content: flex-start;
+  overflow: hidden;
+  padding: 120px 120px;
+  position: relative;
+  transform: perspective(1200px);
+  width: 100vw;
+}
+.and-more-feature {
+  width: 7.8rem;
+}
+.feature2-heading {
+  padding: 0;
+  text-align: left;
+  color: rgb(253, 242, 236);
+  font-family: "Outfit", sans-serif;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: -1px;
+  line-height: 1em;
+}
+.feature2-paragraph-container {
+  max-width: 550px;
+  width: 60%;
+}
+.feature2-paragraph {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: -0.5px;
+  line-height: 1.5em;
+  color: rgb(118, 117, 117);
+}
+.black-cards-wrapper {
+  margin-top: 40px;
+  display: flex;
+  align-items: flex-start;
+  flex: none;
+  flex-direction: row;
+  gap: 40px;
+  height: min-content;
+  justify-content: space-between;
+  overflow: visible;
+  padding: 0;
+  width: 100%;
+}
+.black-card {
+  border: 1px solid rgba(255, 255, 255, 0.03);
+  background-color: rgb(33, 33, 33);
+  border-radius: 30px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  gap: 20px;
+  height: 22rem;
+  justify-content: flex-start;
+  padding: 50px 30px 60px;
+  position: relative;
+  width: 21rem;
+}
+
+.icon-part {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 13px;
+    background-color: rgb(130, 71, 255);
+    border-radius: 20px;
+}
+.text-part {
+  align-items: center;
+  display: flex;
+  flex: none;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  gap: 10px;
+  height: min-content;
+  justify-content: center;
+  overflow: hidden;
+  padding: 0;
+  position: relative;
+  width: 100%;
+}
+.black-card-heading {
+  text-align: center;
+  color: rgb(253, 242, 236);
+  font-family: "Outfit", sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  letter-spacing: -0.5px;
+  line-height: 1.3em;
+}
+.black-card-paragraph {
+  text-align: center;
+  color: rgb(118, 117, 117);
+  font-family: "Inter-Medium", "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0rem;
+  line-height: 1.5em;
+}
