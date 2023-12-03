@@ -1,6 +1,6 @@
 import "./HeroSection.css";
 import Dashboard from "../../assets/dashboard.webp";
-import BigCardRight from "../../assets/bigCardRight.webp";
+import BigCardRight from "../../assets/BigCardRight.webp";
 import SmallCard1 from "../../assets/SmallCard1.webp";
 import SmallCard2 from "../../assets/SmallCard2.webp";
 import SmallCard3 from "../../assets/SmallCard3.webp";
